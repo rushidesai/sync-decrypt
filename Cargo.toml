@@ -1,0 +1,15 @@
+[package]
+name = "syno-decrypt"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+aes = "0.9.3"
+anyhow = "1.0.104"
+base64 = "0.23.1"
+cbc = "0.2.1"
+clap = { version = "4.6.7", features = ["derive"] }
+hex = "0.4.3"
+lz4_flex = "0.14.0"
+md-5 = "0.11.0"
+rpassword = "7.5.4"
